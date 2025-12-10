@@ -43,11 +43,18 @@ public class Persona {
         }
     }
 
-
+    /**
+     * Getter de nombre
+     * @return el nombre de la persona
+     */
     public String getNombre(){
         return this.nombre;
     }
 
+    /**
+     * Getter de apellido/s
+     * @return el apellido/s de la persona
+     */
     public String getApellidos(){
         return this.apellidos;
     }
