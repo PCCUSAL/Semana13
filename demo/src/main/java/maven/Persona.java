@@ -52,6 +52,10 @@ public class Persona {
         return this.apellidos;
     }
 
+    /**
+     * Getter de edad
+     * @return la edad de la persona
+     */
     public int getEdad(){
         return this.edad;
     }
